@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Required meta tags always come first -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title></title>
+  <meta name="description" content="" />
+  <meta property="og:image" content="" />
+
+  <link rel="stylesheet" href="../css/animate.css">
+  <link rel="stylesheet" href="../css/styles.css">
+  <script type="text/javascript" src="../js/jquery-3.2.1.min.js">
+  </script>
+
+
+</head>
+  <body style = "margin: 0;">
+    <div class="backgroundTwo">
+      <div class="home">
+        <a href=""><img src="../images/home.png" alt=""></a>
+
+      </div>
+
+      <div class="next">
+        <a href=""><img src="../images/next.png" alt=""></a>
+
+      </div>
+
+      <div class="containerText">
+        <h1 id= "myTypingText"></h1>
+      </div>
+    </div>
+  </body>
+
+
+<script>
+var myString = "Place your string data here, and as much as you like. The animation is coming from Javascript! ";
+var myArray = myString.split("");
+var loopTimer;
+function frameLooper() {
+	if(myArray.length > 0) {
+		document.getElementById("myTypingText").innerHTML += myArray.shift();
+	} else {
+		clearTimeout(loopTimer);
+                return false;
+	}
+	loopTimer = setTimeout('frameLooper()',40);
+}
+frameLooper();
+
+</script>
+
+
+</html>
