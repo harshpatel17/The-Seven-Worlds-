@@ -17,17 +17,15 @@
 
 </head>
   <body style = "margin: 0; background-color:white;">
-    <div class="backgroundTwo">
+    <div class="backgroundSix">
       <div class="home">
         <a href="index.html"><img src="../images/home.png" alt=""></a>
 
       </div>
 
       <div class="next">
-        <a href=""><img src="../images/next.png" alt=""></a>
-
+        <a href="pageSeven.html"><img src="../images/next.png" alt=""></a>
       </div>
-
       <div class="containerText">
         <h1 id= "myTypingTextWhite"></h1>
       </div>
@@ -36,7 +34,7 @@
 
 
 <script>
-var myString = "Place your string data here, and as much as you like. The animation is coming from Javascript! ";
+var myString = "So...... Tired.....";
 var myArray = myString.split("");
 var loopTimer;
 function frameLooper() {
@@ -46,7 +44,7 @@ function frameLooper() {
 		clearTimeout(loopTimer);
                 return false;
 	}
-	loopTimer = setTimeout('frameLooper()',40);
+	loopTimer = setTimeout('frameLooper()',150);
 }
 frameLooper();
 

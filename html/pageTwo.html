@@ -16,19 +16,19 @@
 
 
 </head>
-  <body style = "margin: 0;">
-    <div class="backgroundOne">
+  <body style = "margin: 0; background-color:red;">
+    <div class="backgroundTwo">
       <div class="home">
         <a href="index.html"><img src="../images/home.png" alt=""></a>
       </div>
 
       <div class="next">
-        <a href="pageThree.html"><img src="../images/next.png" alt=""></a>
+        <a href="pageThree.html"><img src="../images/nextBlack.png" alt=""></a>
 
       </div>
 
       <div class="containerText">
-        <h1 id= "myTypingTextTwo"></h1>
+        <h1 id= "myTypingTextWhite"></h1>
       </div>
     </div>
   </body>
@@ -40,7 +40,7 @@ var myArray = myString.split("");
 var loopTimer;
 function frameLooper() {
 	if(myArray.length > 0) {
-		document.getElementById("myTypingTextTwo").innerHTML += myArray.shift();
+		document.getElementById("myTypingTextWhite").innerHTML += myArray.shift();
 	} else {
 		clearTimeout(loopTimer);
                 return false;
