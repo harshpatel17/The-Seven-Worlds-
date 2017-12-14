@@ -17,36 +17,36 @@
 
 </head>
   <body style = "margin: 0; background-color:black;">
-    <div class="">
+    <div class="backgroundEight">
       <div class="home">
         <a href="index.html"><img src="../images/home.png" alt=""></a>
 
       </div>
 
       <div class="next">
-        <a href="pageEight.html"><img src="../images/next.png" alt=""></a>
+        <a href="pageNine.html"><img src="../images/next.png" alt=""></a>
 
       </div>
 
       <div class="containerText">
-        <h1 id= "myTypingTextWhite"></h1>
+        <h1 id= "myTypingTextBlue"></h1>
       </div>
     </div>
   </body>
 
 
 <script>
-var myString = "z  z  z  z  z  z  z";
+var myString = "Rustling...                                  Wave turns over.                          Rustling gets louder.                              The branches begin shifting with the sound of steps.";
 var myArray = myString.split("");
 var loopTimer;
 function frameLooper() {
 	if(myArray.length > 0) {
-		document.getElementById("myTypingTextWhite").innerHTML += myArray.shift();
+		document.getElementById("myTypingTextBlue").innerHTML += myArray.shift();
 	} else {
 		clearTimeout(loopTimer);
                 return false;
 	}
-	loopTimer = setTimeout('frameLooper()',250);
+	loopTimer = setTimeout('frameLooper()',40);
 }
 frameLooper();
 

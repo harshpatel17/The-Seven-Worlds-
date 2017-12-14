@@ -36,7 +36,7 @@
 
 
 <script>
-var myString = "Rin.... Oh it was just a dream. What a silly dream.";
+var myString = "Rin....            Oh it was just a dream.            That's right.     She's gone. ";
 var myArray = myString.split("");
 var loopTimer;
 function frameLooper() {
@@ -46,7 +46,7 @@ function frameLooper() {
 		clearTimeout(loopTimer);
                 return false;
 	}
-	loopTimer = setTimeout('frameLooper()',60);
+	loopTimer = setTimeout('frameLooper()',80);
 }
 frameLooper();
 
