@@ -16,37 +16,36 @@
 
 
 </head>
-  <body style = "margin: 0; background-color:white;">
-    <div class="backgroundTwelve">
+  <body style = "margin: 0; background-color:black;">
+    <div class="">
       <div class="home">
         <a href="index.html"><img src="../images/home.png" alt=""></a>
-
       </div>
 
       <div class="next">
-        <a href="pageFifteen.html"><img src="../images/next.png" alt=""></a>
+        <a href="pageTwenty.html"><img src="../images/next.png" alt=""></a>
 
       </div>
 
       <div class="containerText">
-        <h1 id= "myTypingTextBlue"></h1>
+        <h1 id= "myTypingTextWhite"></h1>
       </div>
     </div>
   </body>
 
 
 <script>
-var myString = "It's eyes, dark and green look sad.         Wave sighs and let's the boar run off into the bush.             Wave begins to head back, but his foot slips.";
+var myString = "Where am I?          My entire body hurts.            Am I dead.....";
 var myArray = myString.split("");
 var loopTimer;
 function frameLooper() {
 	if(myArray.length > 0) {
-		document.getElementById("myTypingTextBlue").innerHTML += myArray.shift();
+		document.getElementById("myTypingTextWhite").innerHTML += myArray.shift();
 	} else {
 		clearTimeout(loopTimer);
                 return false;
 	}
-	loopTimer = setTimeout('frameLooper()',70);
+	loopTimer = setTimeout('frameLooper()',100);
 }
 frameLooper();
 

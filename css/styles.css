@@ -304,6 +304,90 @@ font-size: 60;
 
 }
 
+.backgroundSixteen{
+  background-image: url("../images/cliff.jpg");
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align:center;
+  margin:auto;
+  padding:0;
+  background-size: cover;
+
+}
+
+.backgroundSeventeen{
+  background-image: url("../images/cliffTwo.jpg");
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align:center;
+  margin:auto;
+  padding:0;
+  background-size: cover;
+
+}
+
+.backgroundEighteen{
+  background-image: url("../images/cliffThree.jpg");
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align:center;
+  margin:auto;
+  padding:0;
+  background-size: cover;
+
+}
+
+.backgroundTwenty{
+  background-image: url("../images/caveTwo.jpg");
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align:center;
+  margin:auto;
+  padding:0;
+  background-size: cover;
+
+}
+
+.backgroundTwentyOne{
+  background-image: url("../images/caveTwo.jpg");
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align:center;
+  margin:auto;
+  padding:0;
+  background-size: cover;
+
+}
+
+.backgroundTwentyThree{
+  background-image: url("../images/blueHoleTwo.jpg");
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align:center;
+  margin:auto;
+  padding:0;
+  background-size: cover;
+
+}
+
 /* Home Button */
 .home img {
   height: 50px;
