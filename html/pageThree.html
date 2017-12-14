@@ -17,30 +17,31 @@
 
 </head>
   <body style = "margin: 0;">
-    <div class="backgroundOne">
+    <div class="backgroundTwo">
       <div class="home">
         <a href="index.html"><img src="../images/home.png" alt=""></a>
+
       </div>
 
       <div class="next">
-        <a href="pageThree.html"><img src="../images/next.png" alt=""></a>
+        <a href=""><img src="../images/next.png" alt=""></a>
 
       </div>
 
       <div class="containerText">
-        <h1 id= "myTypingTextTwo"></h1>
+        <h1 id= "myTypingText"></h1>
       </div>
     </div>
   </body>
 
 
 <script>
-var myString = "(Panting loudly) Where did she go!! She was right here?";
+var myString = "Place your string data here, and as much as you like. The animation is coming from Javascript! ";
 var myArray = myString.split("");
 var loopTimer;
 function frameLooper() {
 	if(myArray.length > 0) {
-		document.getElementById("myTypingTextTwo").innerHTML += myArray.shift();
+		document.getElementById("myTypingText").innerHTML += myArray.shift();
 	} else {
 		clearTimeout(loopTimer);
                 return false;
